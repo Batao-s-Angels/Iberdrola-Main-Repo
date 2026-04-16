@@ -1,6 +1,15 @@
-## Laboratorio de Datos
+# Datathon Solution — Iberdrola EV Charging Network
 
-Este repositorio incluye una **serie de recursos y ejercicios prácticos orientados a divulgar diferentes formas de reutilización de datos abiertos**. A partir de sus características, hemos diferenciado dos tipos de recursos: 
+## Data sources
+- Road network: Ministry of Transport (downloaded DD/MM/2026)
+- Charger baseline: NAP / MITMA
+- DGT registrations: 6 ZIP files (Jun-Nov 2025)
+- Grid i-DE: ide.es download
+- Grid Endesa: e-distribución download
+- Grid Viesgo: viesgo.es download
 
-- **[Visualizaciones](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones)** donde encontrarás recursos que describen los pasos necesarios para implementar visualizaciones de datos abiertos desarrolladas con diferentes herramientas. 
-- **[Data Science](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Data%20Science)**, que dispone de ejercicios rácticos orientados a describir tareas relacionadas con la ciencia de datos, como el aprendizaje automático o el procesamiento del lenguaje natural, entre otros. 
+## Structure
+data/raw/        → downloaded source files (stored on Google Drive, not committed)
+data/processed/  → cleaned outputs from notebook
+outputs/         → File_1.csv, File_2.csv, File_3.csv, visualization.html
+report/          → analytical report + pitch deck
